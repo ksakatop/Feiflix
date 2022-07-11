@@ -1,0 +1,11 @@
+<h2 class="text-white text-2xl pl-2 mb-5">Peliculas Populares</h2>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5">
+    <div class="p-2" *ngFor="let peli of pelis.results">
+        <div class="">
+            <img class="w-full lg:w-80 " src="https://image.tmdb.org/t/p/w500/{{ peli.poster_path }}" alt="">
+        </div>
+        <h3 class="text-white text-center text-ellipsis uppercase "> {{ peli.original_title }} </h3>
+    </div>
+
+</div>
