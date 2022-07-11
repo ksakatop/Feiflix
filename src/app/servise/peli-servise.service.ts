@@ -12,7 +12,7 @@ export class PeliServiseService {
   private Api_URL = "https://api.themoviedb.org/3/movie/popular"
 
   private params = new HttpParams()
-      .set('api_key', 'b47b8249beb0be8b6a0bc4996912abc5')
+      .set('api_key', 'Tu api_key de la paguna TMDB')
       .set('page', 1)
       .set('limit', 18);
 
